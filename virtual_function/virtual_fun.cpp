@@ -22,14 +22,8 @@ class Person
 		{
 
 		}
-        virtual void getdata()
-        {
-
-        }
-        virtual void putdata()
-        {
-
-        }
+        virtual void getdata() = 0;       //zero refers to that fun.is pure virtual function
+        virtual void putdata() = 0;
 };
 class Professor : public Person
 {
